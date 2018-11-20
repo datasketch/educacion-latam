@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://datasketch.github.io/educacion-latam/"
 languageCode = "en-us"
 title = "A minimal Hugo website"
 theme = "hugo-titi"
@@ -7,6 +7,7 @@ disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
+publishDir = "docs"
 
 [permalinks]
     post = "/post/:year-:month-:day/:slug/"
