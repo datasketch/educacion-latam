@@ -1,0 +1,12 @@
+name = "Titi"
+license = "MIT"
+licenselink = "https://github.com/datasketch/hugo-titi/blob/master/LICENSE.md"
+description = "Hugo Titi theme for data journalism sites"
+homepage = "https://dev.datasketch.co/hugo-titi"
+tags = ["blog","data journalism"]
+features = ["blog"]
+min_version = "0.1"
+
+[author]
+  name = "Datasketch"
+  homepage = "https://datasketch.co"
