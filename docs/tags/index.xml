@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on A minimal Hugo website</title>
-    <link>/educacion-latam/tags/</link>
+    <link>https://datasketch.github.io/educacion-latam/tags/</link>
     <description>Recent content in Tags on A minimal Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 20 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/educacion-latam/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://datasketch.github.io/educacion-latam/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Chile</title>
-      <link>/educacion-latam/tags/chile/</link>
+      <link>https://datasketch.github.io/educacion-latam/tags/chile/</link>
       <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/educacion-latam/tags/chile/</guid>
+      <guid>https://datasketch.github.io/educacion-latam/tags/chile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Colombia</title>
-      <link>/educacion-latam/tags/colombia/</link>
+      <link>https://datasketch.github.io/educacion-latam/tags/colombia/</link>
       <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/educacion-latam/tags/colombia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Plot</title>
-      <link>/educacion-latam/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/educacion-latam/tags/plot/</guid>
+      <guid>https://datasketch.github.io/educacion-latam/tags/colombia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/educacion-latam/tags/r-markdown/</link>
+      <link>https://datasketch.github.io/educacion-latam/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/educacion-latam/tags/r-markdown/</guid>
+      <guid>https://datasketch.github.io/educacion-latam/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Regression</title>
-      <link>/educacion-latam/tags/regression/</link>
+      <title>plot</title>
+      <link>https://datasketch.github.io/educacion-latam/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/educacion-latam/tags/regression/</guid>
+      <guid>https://datasketch.github.io/educacion-latam/tags/plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regression</title>
+      <link>https://datasketch.github.io/educacion-latam/tags/regression/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>https://datasketch.github.io/educacion-latam/tags/regression/</guid>
       <description></description>
     </item>
     
