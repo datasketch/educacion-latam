@@ -1,5 +1,4 @@
-# baseurl = "https://datasketch.github.io/educacion-latam/"
-baseurl = "/"
+baseurl = "https://datasketch.github.io/educacion-latam/"
 languageCode = "en-us"
 title = "Especiales Datasketch"
 theme = "hugo-titi"
