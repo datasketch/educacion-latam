@@ -8,6 +8,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 publishDir = "docs"
+relativeUrls = "true"
 
 [[menu.main]]
     name = "Home"
