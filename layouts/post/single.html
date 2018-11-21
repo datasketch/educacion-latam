@@ -1,0 +1,12 @@
+{{ define "style" }}
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/post.css">
+{{ end }}
+
+{{ define "main" }}
+  <div class="post_container">
+    <h1 class="post_title">{{ .Title }}</h1>
+    <div class="post_content">
+      {{ .Content }}
+    </div>
+  </div>
+{{ end }}

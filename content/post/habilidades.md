@@ -27,7 +27,7 @@ Los aprendizajes cognitivos anteriormente mencionados también se refieren a la 
 > “Según Analdex, las pymes exportadoras o con potencial exportador tienen necesidades de servicios de fortalecimiento empresarial enfocados en la gestión del conocimiento y la información, de forma que pueda ser incorporado en sus estructuras, igualmente que los gerentes deben ser sensibilizados ante los procesos de internacionalización para que haya una motivación interna y trabajar en el cambio de la cultura empresarial de las pymes que deje de estar centrado en su propia organización.”
 > Informe [Portafolio](https://www.portafolio.co/negocios/empresas/pymes-exportadoras-pilar-para-el-futuro-empresarial-521737)
 
-![Sample Chart](images/sample-chart.png)
+![Sample Chart](/images/sample-chart.png)
 Otro Gráfico
 
 La educación para la vida supone un análisis sobre las competencias blandas y habilidades y competencias sociales para la era actual que desde el empleo son las requeridas por los estudiantes para pasar de la educación al mundo laboral.

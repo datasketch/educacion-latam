@@ -1,0 +1,52 @@
+.post_container {
+  margin: 0 auto;
+  width: 55%;
+}
+
+.post_title {
+  margin: 20px 0;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.post_content {
+  font-size: 1.6em;
+  font-weight: 300;
+}
+
+.post_content *:not(img) {
+  margin: 0 0 15px;
+}
+
+.post_content blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.post_content blockquote p {
+  margin: 0;
+}
+
+.post_content img {
+  max-width: 100%;
+}
+
+.post_content table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.post_content td, .post_content th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.post_content tr:nth-child(even) {
+  background-color: #dddddd;
+}

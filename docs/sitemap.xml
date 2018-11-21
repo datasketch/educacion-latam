@@ -3,97 +3,97 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/post/2018-11-20/educaci%C3%B3n-temprana-aprendizajes-para-toda-la-vida/</loc>
+    <loc>/post/educacion-temprana/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/post/2018-11-20/inversi%C3%B3n-inteligente-formaci%C3%B3n-docente/</loc>
+    <loc>/post/inversion-formacion-docente/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/post/2018-11-20/prepararnos-para-el-futuro-desarrollo-y-fortalecimiento-de-habilidades/</loc>
+    <loc>/post/habilidades/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/post/2015-07-23/hello-r-markdown/</loc>
+    <loc>/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/about/</loc>
+    <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/tags/chile/</loc>
+    <loc>/tags/chile/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/tags/colombia/</loc>
+    <loc>/tags/colombia/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/data/</loc>
+    <loc>/data/</loc>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/categories/educaci%C3%B3n/</loc>
+    <loc>/categories/educaci%C3%B3n/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/</loc>
+    <loc>/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/methodology/</loc>
+    <loc>/methodology/</loc>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://datasketch.github.io/educacion-latam/tags/r-markdown/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/tags/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://datasketch.github.io/educacion-latam/tags/plot/</loc>
+    <loc>/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://datasketch.github.io/educacion-latam/tags/regression/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/plot/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>

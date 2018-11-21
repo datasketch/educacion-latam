@@ -7,7 +7,6 @@ categories:
 tags:
   - Colombia
   - Chile
-
 ---
 
 Para nadie es un secreto que la labor de los docentes en la educación de una sociedad es fundamental para que esta avance. Es un ejercicio de formación del futuro de los países que en América Latina se ha visto constantemente atropellada por el descrédito, poco reconocimiento y baja remuneración.
@@ -25,21 +24,21 @@ De esta manera, cuando se observa que el desempeño de los estudiantes es bajo a
 
 Para tener un mejor sistema educativo, es necesaria la asignación de recursos, sin embargo, no basta con asignar un presupuesto determinado a educación, sino que estos recursos estén destinados a mejorar el sistema educativo. Estos recursos deben ejercerse de una manera transparente y con constante rendición de cuentas, con lo cual se puede contribuir a mejorar la situación de la sociedad.
 
-![Sample Chart](images/sample-chart.png)
+![Sample Chart](/images/sample-chart.png)
 Gráfico financiación por programas
 
 Por lo tanto, invertir en un buen equipo de docencia es fundamental para la formación de alumnos, específicamente es necesario invertir en que los maestros asuman un papel de promotores de aprendizaje a través de su propia formación. Es necesario tomar en cuenta los programas impulsados en varios países de latinoamérica que apoyan financieramente la estrategia de acompañamiento y capacitación a docentes en temas relacionados con la enseñanza del sistema educativo de cada país. Y más aún, es importante saber cómo se han invertido estos recursos en la generación de estos programas, estableciendo el presupuesto para estos, cuanto se ha gastado y en qué.
 
-![Sample Chart](images/sample-chart.png)
+![Sample Chart](/images/sample-chart.png)
 Gráfico capacitación maestros
 
 Sample Table
 
-Name           Size  Material      Color
-------------- -----  ------------  ------------
-All Business      9  leather       brown
-Roundabout       10  hemp canvas   natural
-Cinderella       11  glass         transparent
+| Name         | Size | Material    | Color       |
+|--------------|------|-------------|-------------|
+| All Business | 9    | leather     | brown       |
+| Roundabout   | 10   | hemp canvas | natural     |
+| Cinderella   | 11   | glass       | transparent |
 
 Por lo tanto, para contar con un sistema educativo con alto desempeño, se debe poner el foco en la formación profesional docente. Para eso, es fundamental atraer a potenciales pedagogos hacia las carreras de educación, y especialmente que estas carreras de educación tengan un alto porcentaje de exigencia requeridos por la profesión, porque en muchos casos los requerimientos para estudiar este tipo de carreras son muy básicos.
 
