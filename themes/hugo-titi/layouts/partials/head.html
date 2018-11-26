@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,400,400i,700,700i" rel="stylesheet">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/index.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href='{{ "css/titi.css" | absURL }}'>
+
+<title>
+  {{ if .Title }}
+    {{ .Title }} | {{ .Site.Title }}
+  {{ else }}
+    {{ .Site.Title }}
+  {{ end }}
+</title>
+
+{{ if .Site.GoogleAnalytics }}
+  {{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
+
+<meta name="description" content="{{ or .Description .Site.Params.description }}">
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="{{ or .Title .Site.Title }}">
+<meta itemprop="description" content="{{ or .Description .Site.Params.description }}">
+<!-- <meta itemprop="image" content=""> -->
+
+<!-- Facebook Meta Tags -->
+{{ template "_internal/opengraph.html" . }}
+
+<!-- Twitter Meta Tags -->
+{{ template "_internal/twitter_cards.html" . }}

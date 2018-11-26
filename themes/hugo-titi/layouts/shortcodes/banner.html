@@ -1,0 +1,19 @@
+
+<section
+  style="width: 100%;height: {{ .Get `h` | safeCSS }}vh;color: {{ .Get `color` | safeCSS }};{{ if .Get `image` }}background-image: url({{ .Get `image` | safeCSS | absURL }});{{end}}{{ if .Get `bg` }}background-color: {{ .Get `bg` | safeCSS }};{{end}}"
+  class="column background banner"
+>
+  <div class="container text-center" style="margin: auto">
+    {{ if .Get `title` }}
+      <h1 class="banner__title">{{ .Get "title" |  markdownify }}</h1>
+    {{ end }}
+    {{ if .Get `subtitle` }}
+      <h2 class="banner__subtitle">{{ .Get "subtitle" | markdownify }}</h2>
+    {{ end }}
+  </div>
+  {{ if .Inner }}
+    <div class="container text-center">
+      <p class="banner__inner">{{ .Inner | markdownify }}</p>
+    </div>
+  {{ end }}
+</section>

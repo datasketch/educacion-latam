@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	{{ partial "head.html" . }}
+	{{ block "style" .}}{{ end }}
+</head>
+<body>
+	<div id="wrapper" class="column">
+		{{ partial "menu" . }}
+		{{ partial "header.html" . }}
+		<main id="content" class="column item-fill">
+			{{ block "main" . }}{{ end }}
+		</main>
+		{{ partial "footer.html" . }}
+	</div>
+	<script src='{{ "/js/titi.js" | absURL }}'></script>
+</body>
+</html>

@@ -1,43 +1,41 @@
-baseurl = "https://datasketch.github.io/educacion-latam/"
-languageCode = "en-us"
+baseUrl = "https://datasketch.github.io/educacion-latam/"
 title = "Especiales Datasketch"
 theme = "hugo-titi"
 googleAnalytics = ""
-disqusShortname = ""
+disqusShortname = "datasketch"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-preserveTaxonomyNames = true
-footnotereturnlinkcontents = "↩"
 publishDir = "docs"
 relativeUrls = "true"
 
-[[menu.main]]
-    name = "Home"
+[menu]
+  [[menu.burger]]
+    name = "Inicio"
     url = "/"
     weight = 1
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2
-[[menu.main]]
-    name = "Methodology"
-    url = "/methodology/"
-    weight = 3
-[[menu.main]]
-    name = "Data"
-    url = "/data/"
-    weight = 4
-[[menu.main]]
-    name = "Categories"
-    url = "/categories/"
-    weight = 5
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 6
-[[menu.main]]
-    name = "Subscribe"
-    url = "/index.xml"
 
 [params]
-    description = "A website built through Hugo, blogdown and Titi"
-    footer = "&copy; [Datasketch](https://datasketch.co) 2017 -- 2018 | [Github](https://github.com/datasketch) | [Twitter](https://twitter.com/xiedatasketch)"
+  # SEO general site description
+  description = "Site SEO description"
+
+  [params.nav]
+    bg = "#ffffff"
+    color = "#1272DF"
+    # logo = "images/ds-logo.svg"
+    logoWidth = "150px"
+    # Optional, true by default
+    # fixed = true
+
+  [[params.social]]
+    icon = "twitter"
+    url = "https://twitter.com/datasketch"
+  [[params.social]]
+    icon = "facebook"
+    url = "https://www.facebook.com/datasketch/"
+  [[params.social]]
+    icon = "instagram"
+    url = "https://www.instagram.com/datasketch/"
+
+  [params.footer]
+    text = "Todo el material en esta página es [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). Si reusas o adaptas recursos de esta página, por favor vincula y referencia nuestro artículo o sitio web."
+    bg = "black"
+    color = "white"

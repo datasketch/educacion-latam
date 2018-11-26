@@ -1,20 +1,52 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
-    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
-    <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
-    {{ partial "head_custom.html" . }}
-  </head>
+{{ $color := .Site.Params.nav.color }}
+{{ $bg := .Site.Params.nav.bg }}
+{{ $fixed := .Site.Params.nav.fixed }}
+{{ $logo := .Site.Params.nav.logo }}
+{{ $logoWidth := .Site.Params.nav.logoWidth }}
 
-  <body>
-    <nav>
-    <ul class="menu">
-      {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+<header
+  style="background: {{ $bg }}; color: {{ $color }}"
+  class="{{ if or (eq $fixed nil) ($fixed)}}fixed{{else}}no-fixed{{end}}"
+>
+  <nav class="container line v-centered justify-between">
+    <div class="nav__left line v-centered">
+      <!-- Toggle burger menu on mobile -->
+      {{ if or (ne .Site.Menus.burger nil) (ne .Site.Menus.nav nil) }}
+        <div class="burger {{ if eq .Site.Menus.burger nil }}only-mobile{{end}}">
+          <div class="burger-bar burger-bar--top" style="background: {{ $color }}"></div>
+          <div class="burger-bar burger-bar--mid" style="background: {{ $color }}"></div>
+          <div class="burger-bar burger-bar--bottom" style="background: {{ $color }}"></div>
+        </div>
       {{ end }}
-    </ul>
-    <hr/>
-    </nav>
+      <a href="/" class="line v-centered nav__logo">
+        {{ if $logo }}
+          <img src="{{ $logo | absURL }}" alt="Logo {{ .Site.Title }}" width="{{ $logoWidth }}">
+        {{ else }}
+          {{ .Site.Title }}
+        {{ end }}
+      </a>
+    </div>
+    <div class="nav__right line v-centered">
+      {{ if .Site.Menus.nav }}
+        {{ range .Site.Menus.nav }}
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+      {{ end }}
+      {{ if .Site.Params.social }}
+        <ul class="nav__social-icons line v-centered">
+          {{ range .Site.Params.social }}
+            {{ $external := .external }}
+            <li>
+              <a
+                href="{{.url}}"
+                target="{{ if or (eq $external nil) ($external) }}_blank{{else}}_self{{end}}"
+              >
+                <i class="fa fa-{{ .icon }}"></i>
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+  </nav>
+</header>

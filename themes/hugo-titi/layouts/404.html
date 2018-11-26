@@ -1,5 +1,9 @@
-{{ partial "header.html" . }}
-
-404 NOT FOUND
-
-{{ partial "footer.html" . }}
+{{ define "main" }}
+  <div class="item-fill column v-centered">
+   <div class="container column centered">
+     <p style="font-size: 3em; padding: 0 0 10px">404</p>
+     <p style="padding: 10px 0 0; font-size: 1.8em; border-top: 1px #eeeeee solid;">No encontramos esta página</p>
+     <p style="padding: 10px 0 0; font-size: 1.4em;"><a href="/" style="text-decoration: underline;">Volver al inicio</a></p>
+   </div>
+  </div>
+{{ end }}

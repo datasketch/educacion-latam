@@ -1,9 +1,7 @@
-  <footer>
-  {{ partial "foot_custom.html" . }}
-  {{ with .Site.Params.footer }}
-  <hr/>
-  {{ . | markdownify }}
-  {{ end }}
-  </footer>
-  </body>
-</html>
+{{ $color := .Site.Params.footer.color }}
+{{ $bg := .Site.Params.footer.bg }}
+<footer style="background: {{ $bg }}; color: {{ $color }}">
+  <div class="footer__inner text-center">
+    {{ markdownify .Site.Params.footer.text }}
+  </div>
+</footer>
