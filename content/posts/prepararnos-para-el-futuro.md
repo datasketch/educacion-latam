@@ -6,6 +6,7 @@ menu: "burger"
 cover: false
 hideTitle: true
 highlight: "#E6374A"
+weight: 4
 ---
 
 {{< banner

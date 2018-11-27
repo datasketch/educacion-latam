@@ -4,6 +4,7 @@ date: 2018-11-26T12:48:52-05:00
 hideTitle: true
 menu: "burger"
 highlight: "#E6374A"
+weight: 2
 ---
 
 {{< banner

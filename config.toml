@@ -12,6 +12,9 @@ canonifyURLs = "true"
     name = "Inicio"
     url = "/"
     weight = 1
+  [[menu.burger]]
+    name = "Mapa de actores"
+    url = "/educacion-latam/mapa/"
 
 [params]
   # SEO general site description
