@@ -1,0 +1,25 @@
+{{ define "style" }}
+  <link href="/css/app.26377523.css" rel="preload" as="style">
+  <link href="/css/chunk-vendors.2c7f3eba.css" rel="preload" as="style">
+  <link href="/js/app.c5ff1cff.js" rel="preload" as="script">
+  <link href="/js/chunk-vendors.51cded3e.js" rel="preload" as="script">
+  <link href="/css/chunk-vendors.2c7f3eba.css" rel="stylesheet">
+  <link href="/css/app.26377523.css" rel="stylesheet">
+  <style>
+    #app {
+      position: relative;
+    }
+    #app,
+    #map,
+    .leaflet-container {
+      height: 100vh
+    }
+  </style>
+{{ end }}
+
+{{ define "main" }}
+  <noscript><strong>We're sorry but educacion-latam-map doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript>
+  <div id="app"></div>
+  <script src="/js/chunk-vendors.51cded3e.js"></script>
+  <script src="/js/app.c5ff1cff.js"></script>
+{{ end }}

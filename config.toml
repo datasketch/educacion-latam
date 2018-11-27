@@ -5,7 +5,7 @@ googleAnalytics = ""
 disqusShortname = "datasketch"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 publishDir = "docs"
-relativeUrls = "true"
+canonifyURLs = "true"
 
 [menu]
   [[menu.burger]]
