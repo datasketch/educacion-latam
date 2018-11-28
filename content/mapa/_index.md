@@ -1,3 +1,4 @@
 ---
-title: 'Mapa de actores'
+title: "Mapa de actores"
+menu: "burger"
 ---

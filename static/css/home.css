@@ -52,9 +52,11 @@
 
 .storie__tab {
   background: var(--denim);
+  cursor: pointer;
   color: white;
   font-size: 1.5em;
   box-shadow: 1px 1px 3px rgba(9, 30, 27, .8);
+  transition: 0.25s linear;
 }
 
 .storie__title {
@@ -88,6 +90,14 @@
   font-weight: 400;
   letter-spacing: 0.1em;
   align-self: center;
+}
+
+.summary {
+  display: none;
+}
+
+.summary.active {
+  display: block;
 }
 
 #data {

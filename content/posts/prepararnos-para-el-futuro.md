@@ -7,6 +7,7 @@ cover: false
 hideTitle: true
 highlight: "#E6374A"
 weight: 4
+summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, incidunt maxime. Quis iste officiis nobis quam? Itaque, nemo tempora. Nobis id numquam dolor voluptate quaerat fugiat harum nesciunt molestias libero."
 ---
 
 {{< banner
@@ -20,7 +21,7 @@ weight: 4
 
 El mundo cambia aceleradamente, la tecnología, la política, la manera en la que nos relacionamos con los demás, la economía, las dinámicas de la sociedad, todo cambia pero, ¿está cambiando la educación que reciben los niños y los jóvenes?.
 
-Someramente no. El modelo educativo actual es obsoleto, se quedó enseñando a niños del pasado, que se sentaban en línea oyendo al profesor dar la clase, que estudiaban memorizando contenidos y siguiendo instrucciones. Ahora los niños viven un mundo donde el contenido lo encuentran en cualquier lugar de la web, y donde no se sigue el pie de la letra. Hoy por hoy se cuenta con más libertad a hora de enseñar y aprender, pero no se usa esa libertad. 
+Someramente no. El modelo educativo actual es obsoleto, se quedó enseñando a niños del pasado, que se sentaban en línea oyendo al profesor dar la clase, que estudiaban memorizando contenidos y siguiendo instrucciones. Ahora los niños viven un mundo donde el contenido lo encuentran en cualquier lugar de la web, y donde no se sigue el pie de la letra. Hoy por hoy se cuenta con más libertad a hora de enseñar y aprender, pero no se usa esa libertad.
 
 Lo que se aprende en las escuelas, queda para toda la vida. Por eso es necesario poner sobre la mesa de diálogo el desarrollo de habilidades y destrezas que se pueden adquirir y fortalecer. Que lo que los niños y jóvenes aprendan les sea útil, que les funcione para el futuro, que sea educación para toda la vida.
 
@@ -50,7 +51,7 @@ Competencias sociales como el pensamiento crítico y racional, pero también el 
 
 El fortalecimiento de las competencias supone también que los empleos que hoy en día existen, se podrán ir transformando en el futuro, y se van a necesitar progresivamente habilidades relacionadas con el manejo e interacción con computadoras inteligentes, pero también con la integración de los jóvenes a las nueva dinámicas económicas demandadas por el futuro:
 
-> “Como humanidad deberemos enfrentarnos a tomar decisiones de inversión y formación con el fin de poder generar un empleo digno para nuestros ciudadanos.” 
+> “Como humanidad deberemos enfrentarnos a tomar decisiones de inversión y formación con el fin de poder generar un empleo digno para nuestros ciudadanos.”
 > Rosario Ballesteros-Colombia
 
-Por esto, es necesario que las instituciones educativas integren en sus currículos que los estudiantes sepan resolver de manera adecuada los problemas a los que se va a enfrentar el resto de su vida, desde una actividad tan simple como hacer una consignación en un banco a una de vital importancia como votar en las elecciones. Si conocimientos que parecen alejados de la academia se integrarán en la educación en el día a día de los estudiantes, tendríamos ciudadanos preparados para salir al mundo. 
+Por esto, es necesario que las instituciones educativas integren en sus currículos que los estudiantes sepan resolver de manera adecuada los problemas a los que se va a enfrentar el resto de su vida, desde una actividad tan simple como hacer una consignación en un banco a una de vital importancia como votar en las elecciones. Si conocimientos que parecen alejados de la academia se integrarán en la educación en el día a día de los estudiantes, tendríamos ciudadanos preparados para salir al mundo.

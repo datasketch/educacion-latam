@@ -14,5 +14,6 @@
 		{{ partial "footer.html" . }}
 	</div>
 	<script src='{{ "js/titi.js" | absURL }}'></script>
+	{{ block "script" . }}{{ end }}
 </body>
 </html>

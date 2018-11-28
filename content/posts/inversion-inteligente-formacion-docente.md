@@ -7,6 +7,7 @@ cover: false
 hideTitle: true
 highlight: "#E6374A"
 weight: 3
+summary: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati adipisci aliquid neque error voluptatem consequuntur laudantium amet ducimus deserunt laboriosam excepturi sunt, ab itaque? Quidem, atque consectetur. Delectus autem aspernatur quae odit amet fugiat repellendus. Reprehenderit, modi adipisci praesentium omnis similique magni veniam beatae suscipit qui commodi nostrum temporibus cumque ipsa accusantium tenetur sapiente sed sunt quas, ducimus, velit nemo."
 ---
 
 {{< banner
@@ -27,7 +28,7 @@ Arlen Regina Pérez, Nicaragua.{{< /quote >}}
 
 La labor de los docentes se ve truncada en muchos casos por situaciones que no son de su entera competencia, tales como los paros educativos, las protestas, los bloqueos o toma a instalaciones educativas, entre otros. Que hacen que esta labor en muchos casos se vea limitada y hasta impedida.
 
-Pero además es evidente que la distribución desigual de docentes en el sistema educativo de latinoamérica hace que se hagan más evidentes las brechas en el acceso a la educación. Los educadores con más bajo desempeño se encuentran trabajando en establecimientos con bajos ingresos y con estudiantes con menos recursos, y viceversa. Lo que refleja una constante brecha de educación tanto en la formación de docentes como de estudiantes, especialmente estancando a aquellos que tienen más bajos recursos. 
+Pero además es evidente que la distribución desigual de docentes en el sistema educativo de latinoamérica hace que se hagan más evidentes las brechas en el acceso a la educación. Los educadores con más bajo desempeño se encuentran trabajando en establecimientos con bajos ingresos y con estudiantes con menos recursos, y viceversa. Lo que refleja una constante brecha de educación tanto en la formación de docentes como de estudiantes, especialmente estancando a aquellos que tienen más bajos recursos.
 
 De esta manera, cuando se observa que el desempeño de los estudiantes es bajo a causa de la baja efectividad de los profesores, es necesario entonces, crear una política pública que apunte a asegurar buenos profesores con buenas condiciones de formación y de aprendizaje.
 

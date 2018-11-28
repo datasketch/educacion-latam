@@ -12,9 +12,6 @@ canonifyURLs = "true"
     name = "Inicio"
     url = "/"
     weight = 1
-  [[menu.burger]]
-    name = "Mapa de actores"
-    url = "/educacion-latam/mapa/"
 
 [params]
   # SEO general site description
@@ -22,7 +19,7 @@ canonifyURLs = "true"
 
   [params.nav]
     bg = "#ffffff"
-    color = "#1272DF"
+    color = "#105EAD"
     # logo = "images/ds-logo.svg"
     logoWidth = "150px"
     # Optional, true by default

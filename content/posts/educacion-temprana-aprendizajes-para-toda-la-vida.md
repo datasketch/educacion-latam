@@ -5,6 +5,7 @@ hideTitle: true
 menu: "burger"
 highlight: "#E6374A"
 weight: 2
+summary: "Las secuelas de no integrar la oferta de servicios sociales (salud, alimentación y educación) para la primera infancia trascienden esa etapa de vida y afectuan la capacidad de aprender en los siguientes niveles del sistema educativo y a lo largo de la vida. La mayor preocupación expresada por los participantes se resume en tristes historias que evidencian las demoras y trabas que estudiantes y profesores padecen para moverse libremente y aprender lo que cada uno necesita dentro de un sistema educativo no flexible. Los participantes coincidieron en que existe la evidencia de lo que funciona en educación, pero el reto parece estar en cómo incorporar la evidencia en el diseño de cada clase de prescolar hasta educación superior. Un ejemplo identificado como potencial área de colaboración es la formación de profesores para lectura infantil"
 ---
 
 {{< banner
@@ -21,7 +22,7 @@ weight: 2
 María es una estudiante de segundo de primaria de la escuelita pública #80139 del distrito de Curgos, el más pobre de Perú, que cuando le piden leer una frase de un libro, no puede hacerlo. Pero si viajamos cuatro horas desde el distrito de Curgos hacia Trujillo en Perú, el distrito más importante de la región La Libertad, conoceremos a Micaela, quién tiene la misma edad que María, pero además de saber leer, ha aprendido a presentarse en inglés.
 
 Este caso peruano, se repite en las diversas regiones de latinoamérica, donde acceder a la educación es muy complicado por la calidad cada vez más precaria y las brechas tan amplias para gozar de este derecho, especialmente si hablamos de las desigualdades de género, económicas, de ruralidad, entre otras.
-Lo que lleva a considerar que los años de preescolar para el desarrollo de los niños es fundamental, porque en este periodo se pueden desenvolver una gran cantidad de capacidades cognitivas que luego van a ser fundamentales para el crecimiento de los infantes, como el saber leer y escribir. 
+Lo que lleva a considerar que los años de preescolar para el desarrollo de los niños es fundamental, porque en este periodo se pueden desenvolver una gran cantidad de capacidades cognitivas que luego van a ser fundamentales para el crecimiento de los infantes, como el saber leer y escribir.
 
 En muchos países de latinoamérica no es obligatorio cursar el preescolar, sin embargo cuando los estudiantes llegan a primero de primaria, es notable cuando no tuvieron aprendizajes previos, ya que se atrasan de los contenidos necesarios para ese curso. En muchos casos también, los docentes de preescolar son voluntarios o no tienen la experiencias en la labor de cuidado de los infantes.
 

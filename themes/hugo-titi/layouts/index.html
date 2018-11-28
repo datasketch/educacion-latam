@@ -7,25 +7,30 @@
   <section id="stories">
     <div class="stories">
       <div class="stories__tabs">
-        <a class="storie__tab active column centered" href="posts/educacion-temprana-aprendizajes-para-toda-la-vida/">
+        <div class="storie__tab active column centered" data-summary="0">
           <p class="storie__title">Aprendizajes</p>
           <p class="storie__subtitle">para toda la vida</p>
-        </a>
-        <a class="storie__tab column centered" href="posts/inversion-inteligente-formacion-docente/">
+        </div>
+        <div class="storie__tab column centered" data-summary="1">
           <p class="storie__title">Inversión</p>
           <p class="storie__subtitle">social inteligente</p>
-        </a>
-        <a class="storie__tab column centered" href="posts/prepararnos-para-el-futuro/">
+        </div>
+        <div class="storie__tab column centered" data-summary="2">
           <p class="storie__title">Desempleo juvenil</p>
           <p class="storie__subtitle">como oportunidad</p>
-        </a>
+        </div>
       </div>
       <div class="stories__image">
         <img class="img-responsive" src="images/nina.png">
       </div>
       <div class="stories__summary">
         <div class="ribbon ribbon-dark"></div>
-        <p>Las secuelas de no integrar la oferta de servicios sociales (salud, alimentación y educación) para la primera infancia trascienden esa etapa de vida y afectuan la capacidad de aprender en los siguientes niveles del sistema educativo y a lo largo de la vida. La mayor preocupación expresada por los participantes se resume en tristes historias que evidencian las demoras y trabas que estudiantes y profesores padecen para moverse libremente y aprender lo que cada uno necesita dentro de un sistema educativo no flexible. Los participantes coincidieron en que existe la evidencia de lo que funciona en educación, pero el reto parece estar en cómo incorporar la evidencia en el diseño de cada clase de prescolar hasta educación superior. Un ejemplo identificado como potencial área de colaboración es la formación de profesores para lectura infantil</p>
+        {{ range $index, $post := where .Pages "Section" "posts" }}
+          <div id="summary-{{ $index }}" class="summary {{if eq $index 0}}active{{end}}">
+            <p>{{ $post.Params.summary }}</p>
+            <p style="margin-top: 5px"><a style="color: #105EAD" href="{{ $post.URL }}">Leer más</a></p>
+          </div>
+        {{ end }}
       </div>
     </div>
   </section>
@@ -74,4 +79,8 @@
       <a href="{{ `mapa` | absURL }}" class="btn--red">VER</a>
     </div>
   </section>
+{{ end }}
+
+{{ define "script" }}
+  <script src="js/home.js"></script>
 {{ end }}
