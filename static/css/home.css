@@ -50,7 +50,7 @@
   grid-template-rows: repeat(3, 1fr);
 }
 
-.storie__tab {
+.story__tab {
   background: var(--denim);
   cursor: pointer;
   color: white;
@@ -59,19 +59,19 @@
   transition: 0.25s linear;
 }
 
-.storie__title {
+.story__title {
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
-.storie__subtitle {
+.story__subtitle {
   font-weight: 300;
   text-transform: lowercase;
   letter-spacing: 0.1em;
 }
 
-.storie__tab.active {
+.story__tab.active {
   background: var(--amaranth);
 }
 
@@ -100,24 +100,17 @@
   display: block;
 }
 
-#data {
-  background: var(--black-bean);
-  color: white;
-  padding: 4em 0 8em;
-}
-
-#data h3 {
-  font-size: 2.45em;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin: 0 0 25px;
-}
-
 .stages {
-  padding: 0;
   display: flex;
-  list-style: none;
+  justify-content: space-around;
+  min-height: 70vh;
+  max-height: 100vh;
+}
+
+.stage {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .stage__title {
@@ -125,12 +118,56 @@
   font-style: italic;
   font-weight: 700;
   letter-spacing: 0.1em;
+  position: relative;
   text-align: center;
   text-transform: uppercase;
+}
+
+.stage__fragments {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   position: relative;
 }
 
-.stage__title:before {
+.stage__fragments:before {
+  border-left: 1px dashed #1272DF;
+  content: '';
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.stage__bullet {
+  background: var(--denim);
+  border-radius: 50%;
+  cursor: pointer;
+  height: 12px;
+  margin: 5px 0;
+  transition: 0.2s ease-in;
+  width: 12px;
+  z-index: 1;
+}
+
+.stage__bullet.active {
+  background: var(--amaranth);
+  transform: scale(1.5);
+}
+
+.stage__image {
+  width: 150px;
+}
+
+.stage__image img {
+  max-width: 100%;
+}
+/* .stage__title:before {
   bottom: 100%;
   content: 'Educaci\00f3n';
   font-style: italic;
@@ -139,19 +176,30 @@
   position: absolute;
   text-transform: uppercase;
   transform: translate(-50%)
-}
+} */
 
 .stage__image {
   max-width: 70%;
 }
 
-.data__storie {
-  font-weight: 400;
-  font-size: 1.3em;
-  column-count: 3;
+.story__author {
+  font-size: 2.45em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 0 0 25px;
+  text-transform: uppercase;
+  transition: 0.2s ease-in;
 }
 
-.data__storie p {
+.story__content {
+  column-count: 3;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 20px;
+  transition: 0.2s ease-in;
+}
+
+.story__content p {
   letter-spacing: 0.1em;
   margin: 0 0 10px;
 }
