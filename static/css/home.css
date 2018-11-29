@@ -1,8 +1,8 @@
 .ribbon {
   background: white;
   height: 10px;
+  margin: 0 0 20px;
   width: 50px;
-  margin: 20px 0;
 }
 
 .ribbon-dark {
@@ -35,14 +35,14 @@
 
 #stories {
   border-bottom: 10px solid var(--denim);
-  padding: 10em 0;
+  padding: 0 0 20px;
 }
 
 .stories {
-  height: 100%;
   display: grid;
-  grid-template-columns: 1fr;
   grid-gap: 25px;
+  grid-template-columns: 1fr;
+  height: 100%;
 }
 
 .stories__tabs {
@@ -52,10 +52,11 @@
 
 .story__tab {
   background: var(--denim);
-  cursor: pointer;
-  color: white;
-  font-size: 1.5em;
   box-shadow: 1px 1px 3px rgba(9, 30, 27, .8);
+  color: white;
+  cursor: pointer;
+  font-size: 1.5em;
+  padding: 20px 0;
   transition: 0.25s linear;
 }
 
@@ -77,19 +78,21 @@
 
 .stories__image {
   align-self: center;
+  display: none;
 }
 
 .stories__image img {
-  max-width: 85%;
   display: block;
   margin: 0 auto;
+  max-width: 85%;
 }
 
 .stories__summary {
+  align-self: center;
   font-size: 1.3em;
   font-weight: 400;
   letter-spacing: 0.1em;
-  align-self: center;
+  margin: 0 2.5%;
 }
 
 .summary {
@@ -131,14 +134,14 @@
 }
 
 .review__fragments {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 auto;
+  justify-content: space-around;
   list-style-type: none;
   margin: 10px 0 0;
   padding: 0;
-  flex: 1 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   position: relative;
 }
 
@@ -204,7 +207,7 @@
 .switch__group {
   display: flex;
   justify-content: center;
-  margin: 20px 0 0;
+  margin: 20px 0;
 }
 
 .switch {
@@ -215,10 +218,10 @@
   font-size: 1.3em;
   font-weight: 300;
   letter-spacing: 0.1em;
+  overflow: hidden;
   padding: 10px 15px;
   position: relative;
   text-transform: uppercase;
-  overflow: hidden;
   z-index: 1;
 }
 
@@ -239,8 +242,8 @@
   height: 100%;
   position: absolute;
   top: 0;
-  width: 100%;
   transition: 0.25s;
+  width: 100%;
   z-index: -1;
 }
 
@@ -258,8 +261,17 @@
 }
 
 @media screen and (min-width: 768px) {
+  #stories {
+    padding: 10em 0;
+  }
   .stories {
     grid-template-columns: 300px repeat(2, 1fr);
+  }
+  .stories__image {
+    display: block;
+  }
+  .story__tab {
+    padding: 0;
   }
   .reviews__container {
     padding: 40px 0;
