@@ -2,7 +2,7 @@
   background: white;
   height: 10px;
   width: 50px;
-  margin: 0 0 20px;
+  margin: 20px 0;
 }
 
 .ribbon-dark {
@@ -150,7 +150,7 @@
   cursor: pointer;
   height: 12px;
   margin: 5px 0;
-  transition: 0.2s ease-in;
+  transition: 0.25s ease-in;
   width: 12px;
   z-index: 1;
 }
@@ -161,11 +161,11 @@
 }
 
 .stage__image {
-  width: 150px;
+  max-width: 150px;
 }
 
 .stage__image img {
-  max-width: 100%;
+  width: 100%;
 }
 /* .stage__title:before {
   bottom: 100%;
@@ -177,10 +177,6 @@
   text-transform: uppercase;
   transform: translate(-50%)
 } */
-
-.stage__image {
-  max-width: 70%;
-}
 
 .story__author {
   font-size: 2.45em;
