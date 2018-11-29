@@ -184,7 +184,11 @@
 
   <section style="background: var(--black-bean);color: white;padding: 4em 0 8em;">
     <div class="container">
-      <div class="stages"></div>
+      <div class="reviews"></div>
+      <div class="switch__group">
+        <button class="switch active" onclick="showReviewByTopic(this)">Por temas</button>
+        <button class="switch" onclick="showReviewByCountry(this)">Por países</button>
+      </div>
       <div class="ribbon"></div>
       <h3 class="story__author"></h3>
       <div class="story__content"></div>
