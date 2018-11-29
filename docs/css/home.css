@@ -1,8 +1,8 @@
 .ribbon {
   background: white;
   height: 10px;
+  margin: 0 0 20px;
   width: 50px;
-  margin: 20px 0;
 }
 
 .ribbon-dark {
@@ -35,14 +35,14 @@
 
 #stories {
   border-bottom: 10px solid var(--denim);
-  padding: 10em 0;
+  padding: 0 0 20px;
 }
 
 .stories {
-  height: 100%;
   display: grid;
-  grid-template-columns: 300px repeat(2, 1fr);
   grid-gap: 25px;
+  grid-template-columns: 1fr;
+  height: 100%;
 }
 
 .stories__tabs {
@@ -52,10 +52,11 @@
 
 .story__tab {
   background: var(--denim);
-  cursor: pointer;
-  color: white;
-  font-size: 1.5em;
   box-shadow: 1px 1px 3px rgba(9, 30, 27, .8);
+  color: white;
+  cursor: pointer;
+  font-size: 1.5em;
+  padding: 20px 0;
   transition: 0.25s linear;
 }
 
@@ -77,19 +78,21 @@
 
 .stories__image {
   align-self: center;
+  display: none;
 }
 
 .stories__image img {
-  max-width: 85%;
   display: block;
   margin: 0 auto;
+  max-width: 85%;
 }
 
 .stories__summary {
+  align-self: center;
   font-size: 1.3em;
   font-weight: 400;
   letter-spacing: 0.1em;
-  align-self: center;
+  margin: 0 2.5%;
 }
 
 .summary {
@@ -100,17 +103,24 @@
   display: block;
 }
 
+.reviews__container {
+  background: var(--black-bean);
+  color: white;
+  padding: 0 0 20px;
+}
+
 .reviews {
   display: flex;
   justify-content: space-around;
-  min-height: 70vh;
-  max-height: 100vh;
+  min-height: auto;
+  flex-direction: column
 }
 
 .review {
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin: 20px 0 0;
 }
 
 .review__title {
@@ -124,24 +134,27 @@
 }
 
 .review__fragments {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  flex: 1 0 auto;
+  align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex: 1 0 auto;
   justify-content: space-around;
+  list-style-type: none;
+  margin: 10px 0 0;
+  padding: 0;
   position: relative;
 }
 
 .review__fragments:before {
-  border-left: 1px dashed #1272DF;
+  border-left: none;
+  border-top: 1px dashed #1272DF;
   content: '';
-  height: 100%;
-  left: 50%;
+  height: auto;
+  left: 0;
   position: absolute;
-  top: 0;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 100%;
 }
 
 .review__bullet {
@@ -149,7 +162,7 @@
   border-radius: 50%;
   cursor: pointer;
   height: 12px;
-  margin: 5px 0;
+  margin: 5px;
   transition: 0.25s ease-in;
   width: 12px;
   z-index: 1;
@@ -161,6 +174,7 @@
 }
 
 .review__image {
+  display: none;
   max-width: 150px;
 }
 
@@ -169,16 +183,16 @@
 }
 
 .story__author {
-  font-size: 2.45em;
+  font-size: 2em;
   font-weight: 700;
   letter-spacing: 0.1em;
-  margin: 0 0 25px;
+  margin: 0 0 20px;
   text-transform: uppercase;
   transition: 0.2s ease-in;
 }
 
 .story__content {
-  column-count: 3;
+  column-count: 1;
   font-size: 1.3em;
   font-weight: 400;
   line-height: 20px;
@@ -193,7 +207,7 @@
 .switch__group {
   display: flex;
   justify-content: center;
-  margin: 20px 0 0;
+  margin: 20px 0;
 }
 
 .switch {
@@ -204,10 +218,10 @@
   font-size: 1.3em;
   font-weight: 300;
   letter-spacing: 0.1em;
+  overflow: hidden;
   padding: 10px 15px;
   position: relative;
   text-transform: uppercase;
-  overflow: hidden;
   z-index: 1;
 }
 
@@ -228,8 +242,8 @@
   height: 100%;
   position: absolute;
   top: 0;
-  width: 100%;
   transition: 0.25s;
+  width: 100%;
   z-index: -1;
 }
 
@@ -244,4 +258,57 @@
 .switch.active:nth-of-type(1):before,
 .switch.active:nth-of-type(2):before {
   left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  #stories {
+    padding: 10em 0;
+  }
+  .stories {
+    grid-template-columns: 300px repeat(2, 1fr);
+  }
+  .stories__image {
+    display: block;
+  }
+  .story__tab {
+    padding: 0;
+  }
+  .reviews__container {
+    padding: 40px 0;
+  }
+  .reviews {
+    flex-direction: row;
+    min-height: 70vh;
+  }
+  .review {
+    margin: 0;
+  }
+  .review__fragments {
+    flex-direction: column;
+    margin: 0;
+  }
+  .review__fragments:before {
+    border-left: 1px dashed #1272DF;
+    border-top: none;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    width: auto;
+  }
+  .review__image {
+    display: block;
+  }
+  .story__author {
+    font-size: 2.45em
+  }
+  .story__content {
+    column-count: 2
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .story__content {
+    column-count: 3;
+  }
 }
