@@ -161,21 +161,21 @@
   background: var(--denim);
   border-radius: 50%;
   cursor: pointer;
-  height: 12px;
-  margin: 5px;
+  height: 10px;
+  margin: 4px;
   transition: 0.25s ease-in;
-  width: 12px;
+  width: 10px;
   z-index: 1;
 }
 
 .review__bullet.active {
   background: var(--amaranth);
-  transform: scale(1.5);
+  transform: scale(1.2)
 }
 
 .review__image {
   display: none;
-  max-width: 150px;
+  max-width: 80px;
 }
 
 .review__image img {
@@ -278,7 +278,7 @@
   }
   .reviews {
     flex-direction: row;
-    min-height: 70vh;
+    min-height: 200px;
   }
   .review {
     margin: 0;
