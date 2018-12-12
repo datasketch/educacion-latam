@@ -1,4 +1,4 @@
-baseUrl = "https://datasketch.github.io/educacion-latam/"
+baseUrl = "/educacion-latam/"
 title = "Especiales Datasketch"
 theme = "hugo-titi"
 googleAnalytics = ""
