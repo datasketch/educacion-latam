@@ -1,43 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Educación LATAM on Especiales Datasketch</title>
-    <link>https://datasketch.github.io/educacion-latam/</link>
-    <description>Recent content in Educación LATAM on Especiales Datasketch</description>
+    <title>Educación LATAM on Educación Latam</title>
+    <link>/educacion-latam/</link>
+    <description>Recent content in Educación LATAM on Educación Latam</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 26 Nov 2018 12:48:52 -0500</lastBuildDate>
     
-	<atom:link href="https://datasketch.github.io/educacion-latam/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/educacion-latam/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Educacion Temprana: Aprendizajes Para Toda La Vida</title>
-      <link>https://datasketch.github.io/educacion-latam/posts/educacion-temprana-aprendizajes-para-toda-la-vida/</link>
+      <title>Aprendizajes para toda la vida: educación temprana</title>
+      <link>/educacion-latam/posts/aprendizajes-para-toda-la-vida-educacion-temprana/</link>
       <pubDate>Mon, 26 Nov 2018 12:48:52 -0500</pubDate>
       
-      <guid>https://datasketch.github.io/educacion-latam/posts/educacion-temprana-aprendizajes-para-toda-la-vida/</guid>
-      <description>EDUCACIÓN TEMPRANA: Aprendizajes para toda la vida  El gran esfuerzo que debe hacer el Estado para incentivarla educación es crear unas buenas condiciones de infraestructura, recursos didácticos, ambiente socioafectivo, y alianzas internacionales.
-  María es una estudiante de segundo de primaria de la escuelita pública #80139 del distrito de Curgos, el más pobre de Perú, que cuando le piden leer una frase de un libro, no puede hacerlo.</description>
+      <guid>/educacion-latam/posts/aprendizajes-para-toda-la-vida-educacion-temprana/</guid>
+      <description>APRENDIZAJES PARA TODA LA VIDA Educación temprana  El gran esfuerzo que debe hacer el Estado para incentivarla educación es crear unas buenas condiciones de infraestructura, recursos didácticos, ambiente socioafectivo, y alianzas internacionales.
+  María es una estudiante de segundo de primaria de la escuelita pública #80139 del distrito de Curgos -el más pobre de Perú-. Cuando se le pide leer una frase de un libro, ella no puede hacerlo.</description>
     </item>
     
     <item>
-      <title>Inversion Inteligente Formacion Docente</title>
-      <link>https://datasketch.github.io/educacion-latam/posts/inversion-inteligente-formacion-docente/</link>
+      <title>Inversión inteligente: formación docente</title>
+      <link>/educacion-latam/posts/inversion-inteligente-formacion-docente/</link>
       <pubDate>Mon, 26 Nov 2018 14:52:30 -0500</pubDate>
       
-      <guid>https://datasketch.github.io/educacion-latam/posts/inversion-inteligente-formacion-docente/</guid>
-      <description>INVERSIÓN INTELIGENTE Formación docente   Para nadie es un secreto que la labor de los docentes en la educación de una sociedad es fundamental para que esta avance. Es un ejercicio de formación del futuro de los países que en América Latina se ha visto constantemente atropellada por el descrédito, poco reconocimiento y baja remuneración.
-En muchos casos se considera que la labor del docente no es tan importante como en otro tipo de labores de producción de la sociedad.</description>
+      <guid>/educacion-latam/posts/inversion-inteligente-formacion-docente/</guid>
+      <description>INVERSIÓN INTELIGENTE Formación docente   En América Latina y el Caribe hay aproximadamente 7 millones de profesores. La nómina es el mayor gasto de cualquier Ministerio de Educación, en promedio el 83% del total del gasto total. Los líderes globales son conscientes de la crisis de los aprendizajes y que estar escolarizado no es lo mismo que estar aprendiendo. La evidencia internacional y de la región indica que los profesores son el factor más importante -por el lado de la escuela- para promover aprendizajes y habilidades estudiantiles.</description>
     </item>
     
     <item>
-      <title>Prepararnos Para El Futuro</title>
-      <link>https://datasketch.github.io/educacion-latam/posts/prepararnos-para-el-futuro/</link>
+      <title>Habilidades para el futuro</title>
+      <link>/educacion-latam/posts/habilidades-para-el-futuro/</link>
       <pubDate>Mon, 26 Nov 2018 14:56:58 -0500</pubDate>
       
-      <guid>https://datasketch.github.io/educacion-latam/posts/prepararnos-para-el-futuro/</guid>
-      <description>Prepararnos para el futuro Desarrollo y fortalecimiento de habilidades   El mundo cambia aceleradamente, la tecnología, la política, la manera en la que nos relacionamos con los demás, la economía, las dinámicas de la sociedad, todo cambia pero, ¿está cambiando la educación que reciben los niños y los jóvenes?.
-Someramente no. El modelo educativo actual es obsoleto, se quedó enseñando a niños del pasado, que se sentaban en línea oyendo al profesor dar la clase, que estudiaban memorizando contenidos y siguiendo instrucciones.</description>
+      <guid>/educacion-latam/posts/habilidades-para-el-futuro/</guid>
+      <description>Habilidades para el futuro   Rosario, Víctor y Mercedes se graduaron hace dos años de secundaria y a pesar de su larga búsqueda de trabajo siguen desempleados. Ellos creían que si terminaban el bachillerato podrían seguir adelante, pero ahora hacen parte del grueso de desempleo del América Latina, que según las estimaciones modeladas de la OIT (Organización Internacional del Trabajo) alcanza los 10 millones de jóvenes entre los 15 y 24 años que se encuentran desempleados en el 2017.</description>
+    </item>
+    
+    <item>
+      <title>Sobre este especial</title>
+      <link>/educacion-latam/sobre-este-especial/</link>
+      <pubDate>Mon, 17 Dec 2018 15:44:29 -0500</pubDate>
+      
+      <guid>/educacion-latam/sobre-este-especial/</guid>
+      <description>En 2018 la División de Educación del Banco Interamericano de Desarrollo convocó a un grupo de líderes de opinión a un experimento de innovación, gestión de conocimiento y comunicación de 8 semanas. Durante este tiempo tomadores de decisión de 16 países trabajaron en simultánea y en línea para producir esta edición web interactiva o especial periodístico.
+La convocatoria se estructuró bajo el formato de Curso Movilizando Políticas Educativas Efectivas, en la plataforma de cursos en línea del BID -IDBx-, que ya alcanza el récord de 1 millón de usuarios de los famosos MOOC -cursos masivos abiertos en línea- y SPOC - cursos semiabiertos-.</description>
     </item>
     
   </channel>

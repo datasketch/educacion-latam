@@ -18,7 +18,7 @@
           <div class="burger-bar burger-bar--bottom" style="background: {{ $color }}"></div>
         </div>
       {{ end }}
-      <a href="/" class="line v-centered nav__logo">
+      <a href="{{ .Site.BaseURL }}" class="line v-centered nav__logo">
         {{ if $logo }}
           <img src="{{ $logo | absURL }}" alt="Logo {{ .Site.Title }}" width="{{ $logoWidth }}">
         {{ else }}

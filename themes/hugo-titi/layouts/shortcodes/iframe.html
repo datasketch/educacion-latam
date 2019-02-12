@@ -1,0 +1,11 @@
+{{ $global := newScratch }}
+{{ $global.Set "width" (.Get "width" | default nil) }}
+
+{{ if ne ($global.Get "width") nil }}
+  {{ $width := $global.Get "width" }}
+  {{ $global.Set "height" (div (mul (int $width) 9) 16.0) }}
+{{ end }}
+
+<div {{ with (.Get `id`) }}id="{{ . }}"{{ end }} {{ with (.Get `class`) }}class="{{ . }}"{{ end }} style="width: {{ $global.Get `width` | default 100 }}%;padding-bottom: {{ $global.Get `height` | default 56.25 }}%;" class="iframe__container {{ if isset .Params `resize` }}resized{{end}}">
+  <iframe src="{{ .Get `url` }}" {{if isset .Params `resize`}}data-resize{{end}}></iframe>
+</div>

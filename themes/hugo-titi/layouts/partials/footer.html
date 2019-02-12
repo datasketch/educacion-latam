@@ -1,7 +1,10 @@
 {{ $color := .Site.Params.footer.color }}
 {{ $bg := .Site.Params.footer.bg }}
 <footer style="background: {{ $bg }}; color: {{ $color }}">
-  <div class="footer__inner text-center">
+  <div class="footer__inner">
     {{ markdownify .Site.Params.footer.text }}
+    <div class="line centered" style="text-align: center; margin-top: 10px">
+      <img width="80" src="/educacion-latam/images/logo-bid-white.png">
+    </div>
   </div>
 </footer>

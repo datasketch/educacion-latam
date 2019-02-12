@@ -1,0 +1,3 @@
+<div class="container {{ .Get `class` }}" {{ with (.Get `id`) }}id="{{ . }}"{{ end }}>
+  {{ .Inner | markdownify }}
+</div>

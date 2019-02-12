@@ -1,4 +1,4 @@
 ---
-title: "Mapa de actores"
+title: "Mapa de voces"
 menu: "burger"
 ---

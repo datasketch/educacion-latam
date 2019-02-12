@@ -1,0 +1,80 @@
+---
+title: "Inversión inteligente: formación docente"
+date: "2018-11-26T14:52:30-05:00"
+description: "Type SEO description here"
+menu: "burger"
+cover: false
+hideTitle: true
+highlight: "#E6374A"
+weight: 3
+summary: "El llamado a la acción es derrumbar las fronteras territoriales, institucionales y temáticas y  sumar  datos, información y recursos financieros de los Estado de América Latina, las empresas, universidades y sociedad civil. Diseñar formación de profesores de alta calidad es costoso, por eso el esfuerzo común y regional se debería enfocar en la gestión de conocimiento para ofrecerle a los profesores un currículo actualizado y a la mano, así como el apoyo de terceros, y de tecnología para facilitar su tarea. No culpemos más a los docentes, los demás actores sociales  tenemos una deuda con los estudiantes y con ellos. La tecnología hoy permite entrar a la era de inversión inteligente basada en la interpretación -al instante y en línea- de los datos del sistema educativo para apoyar a los estudiantes y profesores, uno a uno."
+---
+
+```{r echo = FALSE}
+blogdown::shortcode('banner', h = '60', title = 'INVERSIÓN INTELIGENTE', subtitle = 'Formación docente', image = 'images/post_inversion.png', color = 'white', bg = '#004e70', .content = ' ')
+```
+
+En América Latina y el Caribe hay aproximadamente 7 millones de profesores. La nómina es el mayor gasto de cualquier Ministerio de Educación, en promedio el 83% del total del gasto total. Los líderes globales son conscientes de la crisis de los aprendizajes y que estar escolarizado no es lo mismo que estar aprendiendo.  La evidencia internacional y de la región indica que los profesores son el factor más importante -por el lado de la escuela- para promover aprendizajes y habilidades estudiantiles.  
+
+Por eso la invitación de la sociedad civil es a comenzar una nueva era de inversión social inteligente en la que los recursos humanos, financieros y los datos del sistema educativo son usados para tomar decisiones a tiempo, incluso aprovechando las nuevas tecnologías como blockchain y machine learning.  
+
+Saber cuánto, cómo, por qué y quién invierte, importa. Recientemente un estudio empírico del BID reveló  que en Chile, Colombia y Perú ¨los docentes con mayor experiencia y contratos de largo plazo se concentran en las escuelas de mayor nivel socioeconómico¨, es un hallazgo de evidencia importante y preocupante.   
+
+No es tan obvio, pero la forma como se invierten los recursos sí afecta los aprendizajes y el desempeño del sistema educativo. Para hacer inversión inteligente se necesita saber si el dinero para la escuela lo direcciona el gobierno central o el gobierno local; si los sistemas de evaluación de escuelas tienen consecuencias asociadas a recibir más o menos recursos cuando implementan planes de mejoramiento; si el poder de decidir en qué tipo de programas invertir se le permite a la escuela o está dictaminado desde otro nivel del sistema, etc.
+
+De otra parte, la sociedad civil invita a priorizar la inversión en formación de profesores de primera infancia. La tasa de alumnos por profesor en la educación preprimaria alcanzó en 2013 un promedio de 17,5 niños en la región latinoamericana.
+
+```{r echo = FALSE}
+blogdown::shortcode('quote', .content = '"Las habilidades como comunicación y el conocimiento de los docentes de preescolar y primer grado pueden contribuir a diseñar mejores estrategias y capacitaciones, preparando a esos docentes efectivos que requerimos y que tienen el potencial, pero requieren el conocimiento y acompañamiento para mejorar su práctica docente." Arlen Regina Pérez, Nicaragua.')
+```
+
+
+```{r echo=FALSE, results='hide', message=FALSE, warning=FALSE, include = FALSE}
+suppressWarnings(library(DT))
+suppressWarnings(library(tidyverse))
+data <- read_csv('../../static/csv/profesores_cualificados.csv') %>% arrange(País)
+```
+
+```{r echo=FALSE, message=FALSE}
+
+datatable(data, rownames = FALSE, options = list(
+  initComplete = JS(
+    "function (settings, json) {",
+    "$(this.api().table().header()).css({ 'background-color': '#004e70', 'color': 'white' })",
+    "}"
+  )
+))
+
+data <- read_csv('../../static/csv/profesores_entrenados.csv') %>% arrange(País)
+datatable(data, rownames = FALSE, options = list(
+  initComplete = JS(
+    "function (settings, json) {",
+    "$(this.api().table().header()).css({ 'background-color': '#004e70', 'color': 'white' })",
+    "}"
+  )
+))
+```
+
+El panorama para las interacciones entre profesores y estudiantes se empeora con situaciones ajenas a ellos: paros, protestas, bloqueos o toma a las instalaciones educativas. La violencia afecta los centros de primera infancia e instituciones educativas y hace que la labor docente en muchos casos se vea limitada y hasta impedida.
+
+```{r echo = FALSE}
+# blogdown::shortcode('iframe', url='//www.compareyourcountry.org/teacher-survey?cr=average&lg=en&page=0')
+blogdown::shortcode('iframe', url='https://live-cima-site.pantheonsite.io/es/node/67')
+```
+
+Por eso desarrollar un plan de contingencia aprovechando las tecnologías, la educación on-line tutorizada y otras herramientas, es la alternativa para mantener los aprendizajes en marcha y sin pausa, más allá de las fronteras, las protestas o los problemas de las infraestructuras físicas. 
+
+Es necesario invertir en que los maestros asuman un papel activo de promotores de aprendizaje a través de su propia formación y sirviendo de puente con los estudiantes para explorar juntos las nuevas opciones que ofrece internet. Varios países de Latinoamérica desarrollan con éxito estrategias de acompañamiento y capacitación docentes entre pares y co-diseñando con estudiantes. 
+
+El cambio de paradigma ya empezó. Gobiernos y sociedad civil están tomando acciones para la generación de políticas públicas para dejar de criticar a los profesores y valorar su aporte, así como centrar los recursos del sistema en garantizar la promesa educativa a los estudiantes. Esa es la inversión más inteligente para la sociedad.
+
+### Autores:
+
+- Carolina Torres - Honduras.
+- Noemí Herrera - México.
+- Constanza Gómez - Chile.
+- Jorge Yzusqui - Perú.
+- Helga Cuellar Marchelli - El Salvador.
+- Adriana del Valle - México.
+
+Con aportes de todos los participantes del curso. Ver más en [Sobre este especial](/educacion-latam/sobre-este-especial/)

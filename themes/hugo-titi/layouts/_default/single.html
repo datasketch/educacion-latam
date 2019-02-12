@@ -1,3 +1,12 @@
 {{ define "main" }}
-  {{ .Content }}
+  {{ $renderCover := and .Params.images (or .Params.cover (eq .Params.cover nil)) }}
+  <div class="post">
+      {{ if $renderCover }}
+        <div class="post__cover background" style="width: 100%; background-image: url({{ index .Params.images 0 | relURL }})"></div>
+      {{ end }}
+      {{ if or (not .Params.hideTitle) (eq .Params.hideTitle nil) }}
+        <h1 class="post__title" style="{{ if not $renderCover }}margin-top: 20px{{ end }}">{{ .Title }}</h1>
+      {{ end }}
+      {{ .Content }}
+  </div>
 {{ end }}

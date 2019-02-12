@@ -1,0 +1,69 @@
+---
+title: "Aprendizajes para toda la vida: educación temprana"
+date: 2018-11-26T12:48:52-05:00
+hideTitle: true
+menu: "burger"
+highlight: "#E6374A"
+weight: 2
+summary: "Las secuelas de no integrar la oferta de servicios sociales (salud, alimentación y educación) para la primera infancia trascienden esa etapa de vida y afectan la capacidad de aprender en los siguientes niveles del sistema educativo y a lo largo de la vida. La mayor preocupación se resume en la inequidad de acceso a los servicios sociales en las primeras etapas de la vida. Especialmente para niños y niñas pertenecientes a minorías y poblaciones con alguna discapacidad. El llamado es a tomar acción, unir recursos financieros y esfuerzos, para garantizar calidad e impacto."
+---
+
+```{r echo = FALSE}
+blogdown::shortcode('banner', h='60', title='APRENDIZAJES PARA TODA LA VIDA', subtitle='Educación temprana', image='images/post_educacion.png', color='white', bg = '#004e70', .content='El gran esfuerzo que debe hacer el Estado para incentivarla educación es crear unas buenas condiciones de infraestructura, recursos
+didácticos, ambiente socioafectivo, y alianzas internacionales.')
+```
+
+María es una estudiante de segundo de primaria de la escuelita pública #80139 del distrito de Curgos -el más pobre de Perú-. Cuando se le pide leer una frase de un libro, ella no puede hacerlo. El caso contrario sucede a cuatro horas de Curgos, en Trujillo,  el distrito más importante de la región La Libertad,en Perú. Allí Micaela, con la misma edad que María, además de saber leer, ha aprendido a presentarse en inglés.
+
+Este caso peruano, se repite en las diversas regiones de latinoamérica, donde aprender es muy complicado por la precaria calidad de la educación y las brechas tan amplias para acceder a este derecho. La situación se agrava si hablamos de las desigualdades de género, de etnia, económicas, de ruralidad, entre otras.
+
+El llamado es urgente a cerrar esas brechas de acceso y equidad porque los primeros años de vida, son los más importantes para el aprendizaje de los niños, en este periodo se desarrollan las capacidades cognitivas que son fundamentales para el crecimiento de los infantes y para seguir aprendiendo a lo largo de la vida.
+
+En muchos países de latinoamérica no es obligatorio cursar el preescolar, sin embargo cuando los estudiantes llegan a primero de primaria, es notable cuando no tuvieron aprendizajes previos, ya que se atrasan de los contenidos necesarios para ese curso. En muchos casos  los docentes de preescolar son voluntarios o no tienen la experiencias en la labor de cuidado de los infantes.
+
+```{r echo = FALSE}
+blogdown::shortcode('quote', .content = 'De acuerdo a estudios realizados por la Organización para la Cooperación y el Desarrollo Económico (OCDE), el individuo que cursa su educación pre básica, cuenta con un mayor desarrollo de sus habilidades cognitivas y motrices, que los prepara para enfrentar con éxito los procesos de formación en los siguientes niveles de educación básica. Por ende, impacta en los resultados del rendimiento académico de manera favorable, debido a que la preparación en los primeros años de vida es crucial, para el desarrollo integral de cada niña y niño. Carolina Maduro, Honduras.')
+```
+
+![](/educacion-latam/images/matriculas.png)
+
+Según cifras de la Unesco, el acceso a la educación pre-primaria aún sigue siendo muy insuficiente en América Latina -especialmente en Paraguay, Honduras y Colombia-.
+
+Aún más, si nos detenemos a analizar los datos sobre los estudiantes que llegan a primaria y no cursan preescolar, es notable que hay un gran porcentaje de estos estudiantes que llegan a grados avanzados de la educación básica sin pasar por los primeros años de aprendizaje. Los países que menos han avanzado en la universalización del preescolar son Guatemala y Honduras, y los que más han avanzado (sin siquiera llegar a la universalización) son Chile, México y Uruguay.
+
+Es por eso que en gran parte, debe educarse a padres, docentes y gobiernos para que se comprometan con el conocimiento de los niños y proporcionen adecuadas condiciones para que los infantes accedan a este derecho. 
+
+El esfuerzo que debe hacer el Estado  para incentivar la educación inicial, es crear las condiciones para las alianzas público-privadas para crear infraestructura adecuada, garantizar recursos didácticos, trabajar con padres y cuidadores en ambientes socioafectivos y aprovechar la evidencia de investigaciones, así como fortalecer alianzas internacionales.  
+
+
+```{r echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+suppressWarnings(library(DT))
+suppressWarnings(library(tidyverse))
+data <- read_csv('../../static/csv/gasto_publico.csv') %>% arrange(País)
+```
+
+```{r echo = FALSE}
+blogdown::shortcode('iframe', url='https://live-cima-site.pantheonsite.io/es/node/44')
+```
+
+```{r echo = FALSE, message = FALSE}
+datatable(data, rownames = FALSE, options = list(
+  initComplete = JS(
+    "function (settings, json) {",
+    "$(this.api().table().header()).css({ 'background-color': '#004e70', 'color': 'white' })",
+    "}"
+  )
+))
+```
+
+A pesar de que la mayoría de países de América Latina ha aumentado el gasto público en educación primaria, este porcentaje debe seguir en aumento para que el Estado pueda garantizar este  derecho fundamental para todos los infantes desde la educación pre-básica y para el resto de la vida. En esos años se desarrollan  las capacidades físicas y motoras, socio-afectivas, lingüísticas y cognitivas de los niños. Con infantes más atendidos, América Latina tendrá más equidad,  inclusión y  democracia.
+
+### Autores:
+
+- Carolina Torres - Honduras.
+- Arlen Regina Pérez - Nicaragua.
+- Irene Arellano Pineda.
+- Carolina Maduro - Honduras.
+- Noemí Herrera - México.
+
+Con aportes de todos los participantes del curso. Ver más en [Sobre este especial](/educacion-latam/sobre-este-especial/)

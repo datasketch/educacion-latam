@@ -1,10 +1,9 @@
 baseUrl = "/educacion-latam/"
-title = "Especiales Datasketch"
+title = "Educación Latam"
 theme = "hugo-titi"
 googleAnalytics = ""
-disqusShortname = "datasketch"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-publishDir = "docs"
+publishDir = "./docs/"
 
 [menu]
   [[menu.burger]]
@@ -19,22 +18,19 @@ publishDir = "docs"
   [params.nav]
     bg = "#ffffff"
     color = "#105EAD"
-    # logo = "images/ds-logo.svg"
+    logo = "images/logo-bid.png"
     logoWidth = "150px"
     # Optional, true by default
     # fixed = true
 
   [[params.social]]
     icon = "twitter"
-    url = "https://twitter.com/datasketch"
+    url = "https://twitter.com/bideducacion"
   [[params.social]]
-    icon = "facebook"
-    url = "https://www.facebook.com/datasketch/"
-  [[params.social]]
-    icon = "instagram"
-    url = "https://www.instagram.com/datasketch/"
+    icon = "rss"
+    url = "https://blogs.iadb.org/educacion/"
 
   [params.footer]
-    text = "Todo el material en esta página es [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). Si reusas o adaptas recursos de esta página, por favor vincula y referencia nuestro artículo o sitio web."
+    text = ""
     bg = "black"
     color = "white"
