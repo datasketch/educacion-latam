@@ -27,34 +27,6 @@ De otra parte, la sociedad civil invita a priorizar la inversión en formación 
 ```{r echo = FALSE}
 blogdown::shortcode('quote', .content = '"Las habilidades como comunicación y el conocimiento de los docentes de preescolar y primer grado pueden contribuir a diseñar mejores estrategias y capacitaciones, preparando a esos docentes efectivos que requerimos y que tienen el potencial, pero requieren el conocimiento y acompañamiento para mejorar su práctica docente." Arlen Regina Pérez, Nicaragua.')
 ```
-
-
-```{r echo=FALSE, results='hide', message=FALSE, warning=FALSE, include = FALSE}
-suppressWarnings(library(DT))
-suppressWarnings(library(tidyverse))
-data <- read_csv('../../static/csv/profesores_cualificados.csv') %>% arrange(País)
-```
-
-```{r echo=FALSE, message=FALSE}
-
-datatable(data, rownames = FALSE, options = list(
-  initComplete = JS(
-    "function (settings, json) {",
-    "$(this.api().table().header()).css({ 'background-color': '#004e70', 'color': 'white' })",
-    "}"
-  )
-))
-
-data <- read_csv('../../static/csv/profesores_entrenados.csv') %>% arrange(País)
-datatable(data, rownames = FALSE, options = list(
-  initComplete = JS(
-    "function (settings, json) {",
-    "$(this.api().table().header()).css({ 'background-color': '#004e70', 'color': 'white' })",
-    "}"
-  )
-))
-```
-
 El panorama para las interacciones entre profesores y estudiantes se empeora con situaciones ajenas a ellos: paros, protestas, bloqueos o toma a las instalaciones educativas. La violencia afecta los centros de primera infancia e instituciones educativas y hace que la labor docente en muchos casos se vea limitada y hasta impedida.
 
 ```{r echo = FALSE}
